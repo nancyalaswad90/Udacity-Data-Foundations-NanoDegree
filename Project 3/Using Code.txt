@@ -1,0 +1,81 @@
+
+ First  query : Top 10 Artist 
+==========================================================================
+SELECT r.name, 
+       Count(il.trackid) * il.unitprice AS Amountspent 
+FROM   artist r 
+       JOIN album l 
+         ON r.artistid = l.artistid 
+       JOIN track t 
+         ON l.albumid = t.albumid 
+       JOIN genre g 
+         ON g.genreid = t.genreid 
+       JOIN invoiceline il 
+         ON t.trackid = il.trackid 
+       JOIN invoice i 
+         ON i.invoiceid = il.invoiceid 
+GROUP  BY 1 
+ORDER  BY 2 DESC 
+LIMIT  10;
+
+
+Second query :Best 10 customers
+==============================
+
+SELECT n.customerid, 
+       c.firstname, 
+       c.lastname, 
+       Sum(v.unitprice) 
+FROM   invoice n 
+       JOIN invoiceline v 
+         ON n.invoiceid = v.invoiceid 
+       JOIN customer c 
+         ON c.customerid = n.customerid 
+GROUP  BY 1 
+ORDER  BY 4 DESC 
+LIMIT  10;
+
+
+Third  query : Top 10 Rock Bands
+============================================
+
+ SELECT b.artistid, 
+       r.name, 
+       Count(b.title) AS song 
+FROM   album b 
+       JOIN artist r 
+         ON r.artistid = b.artistid 
+       JOIN track t 
+         ON b.albumid = t.albumid 
+       JOIN genre g 
+         ON g.genreid = t.genreid 
+WHERE  g.name = 'Rock' 
+GROUP  BY 1 
+ORDER  BY 3 DESC 
+LIMIT  10;
+
+
+Fourth query :Top Country with Music Listeners
+=============================================
+
+SELECT DISTINCT r.Country,
+       COUNT(r.CustomerId) As MusicListener
+
+FROM Customer r
+
+	JOIN Invoice v ON r.CustomerId = v.CustomerId
+
+	JOIN InvoiceLine il ON v.InvoiceId = il.InvoiceId
+
+	JOIN Track t ON il.TrackId = t.TrackId
+
+	JOIN Genre g ON t.GenreId = g.GenreId
+
+WHERE t.GenreId = 1
+
+GROUP BY r.Country  
+
+ORDER BY MusicListener DESC
+
+limit 10;
+
