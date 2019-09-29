@@ -71,3 +71,4 @@ The visuals go above and beyond to be appealing and informative.
 Questions are interesting and provide insight into the individuals who provided data.
 Considered potential issues with data collection process when discussing results.
 
+
