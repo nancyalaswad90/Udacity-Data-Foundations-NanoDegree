@@ -2,73 +2,47 @@
 
 # Analyze-Survey-Data
 
-## Educational level enrolled in "Data Analyst" 
+## Project Overview
 
-# PROJECT SPECIFICATION
+In this project, you will analyze a real dataset about current Udacity students across a number of programs, so it isn't perfect. It is a little messy (some things are input incorrectly, others are missing). You will need to decide how to analyze the data and then communicate your findings about it. You will use spreadsheets to make your analysis easier (please do not analyze by hand - it will take forever!).
 
-## CRITERIA
+Prepare with the descriptive statistics and spreadsheets lessons leading up to the project.
 
-The project clearly states four or more questions, then addresses those questions in the rest of the analysis. The solutions to the questions should range in being found from a single column to being found using multiple columns.
+## What do I need to install?
 
-At least one question/solution must make use of multiple columns.
+You may use any spreadsheet application you like. This includes Google Sheets, Microsoft Excel, etc. Please note .CSV files may not save more than the active tab you are on at the time you close the file and it is recommended to use a spreadsheet tool like the two mentioned above for your work.
 
-The student is able to calculate measures of center for quantitative data.
+## Why this Project?
 
-Student uses means, medians, and modes to generate insights.
+This project will introduce you to the data analysis process that you will be using throughout the rest of the Nanodegree program. In this project, you will go through the process of calculating summary statistics and building visual methods of spreadsheet data to find interesting information out about Udacity students - students just like you. The goal is that you not only can perform an analysis, but also that you can communicate the results in a way that is clear and compelling.
 
-Stating the mean, median, and mode is insufficient. Please include in the written description a short insight related to each one.
+## What skills will I use?
 
-For example here is an insight based on median:
-The median number of hours slept by survey respondents who were employed was 4 hours. The median number of hours slept by unemployed survey respondents was 12. It looks like those who are unemployed get much more sleep based on the median.
-(this data is fake for this example)
+After completing the lessons and the project, you should feel comfortable in your ability to:
 
-The student is able to calculate measures of spread for quantitative data.
-
-Student uses standard deviation and range to generate insights.
-
-Stating the standard deviation and range is insufficient. Please include in the written description a short insight related to each one.
-
-For an example, please review the finished slide example in the classroom, which can be found in the Analyze Survey Data project lesson (concept 7: Finished Example Slide).
-
-The student is able to build graphs for quantitative and categorical data.
-
-Student uses at least two different plots to explore the data. These plots may include histograms, box-plots, scatterplots, and bar charts to explore data and gain insights.
-
-All slides must contain a visualization. Screenshots of values in a table does not count.
-
-The student is able to present findings in an understandable way.
-
-An appropriate visual is chosen to present the data. All labels are legible and the visual has appropriate axis labels.
-
-Every visualization should have
-
-chart title
-x axis title
-x axis labels
-y axis title
-y axis labels
-Please refer to the finished slide example page in the classroom for an example.
-
-Communication Phase
-
-CRITERIA
-MEETS SPECIFICATIONS
-The student is able to avoid making inferential or causal statements when using descriptive statistics.
-
-The results of the analysis are presented such that any limitations are clear. The analysis does not state or imply that one change causes another based solely on a correlation.
-
-The results do not imply facts about a larger group of individuals based on descriptive values. Language is only applied to the specific data provided. Unless a correct analysis beyond the course material is conducted that allows for inference.
-
-This data is from Survey Respondents and is not from the entire Udacity Student population. This must be acknowledged at least once in the submission.
-
-The student is able to choose the correct analysis or plot for a given data type.
-
-The analysis associated with answering a particular question uses the appropriate variables, summary statistics, and plots that could provide an answer.
-
-Suggestions to Make Your Project Stand Out!
-
-The visuals go above and beyond to be appealing and informative.
-Questions are interesting and provide insight into the individuals who provided data.
-Considered potential issues with data collection process when discussing results.
+    - Identify different datatypes to determine what analyses are possible.
+  
+    - Calculate measures of center and spread to describe quantitative data.
+    
+    - Use a variety of spreadsheet functionality to gain insights from data.
+    
+    - Build charts and graphs to communicate the results of your analysis
+    
+    - Be comfortable posing questions that can be answered with a given dataset and then answering those questions
+    
+    - Analyze a future dataset using Excel
 
 
+## Project Details
+
+The data used for this project was collected from Udacity students who responded to a survey. This project is made of two parts. For both parts you will be using the same dataset, which you can find in the Supporting Materials as Surveydata3.csv at the bottom of this page. You will notice that some information has been removed to assure the privacy of the student respondents.
+
+    1. The first part of the project is a set of quiz questions, which you will find in the upcoming concepts. These concepts are aimed to help you get familiar with the dataset and test that you have mastered the core concepts in the previous lessons. Correctly answering each of the quiz questions will assure you are on the right track before you dive into the second part of the project. This part of the project will not be submitted for review.
+
+
+    2. The second part of your project is the portion you will turn in for review. You will need to create a presentation to be reviewed. The details of this submission are detailed in the last page in this lesson. Pay attention to the details of the Rubric to assure you have all deliverables. In order to review your presentation, you will need to save your slides as a PDF.
+
+## Project Walkthrough
+
+This video shows one of our instructors giving some great hints and tips for how to get started with your project: Walkthrough Video
+https://www.youtube.com/watch?v=OkpTBa4jVSQ&feature=youtu.be
