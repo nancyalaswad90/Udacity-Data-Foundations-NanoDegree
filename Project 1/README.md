@@ -10,3 +10,9 @@ In my project here I choise LinkedIn project to make my observations
 
 https://public.tableau.com/profile/matt.chambers#!/vizhome/LinkedInTopSkills2016-MakeoverMonday/LinkedInTopSkills2016-MakeoverMonday
 
+
+#  Watch the video here to learn what your project is all about!
+
+This project is aimed at analysis using data visualization in Tableau.
+
+https://www.youtube.com/watch?time_continue=1&v=VP8zNxRF-t0
